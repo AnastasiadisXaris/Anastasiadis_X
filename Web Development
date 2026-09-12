@@ -1,0 +1,3056 @@
+```html
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYX9B5NM4D"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-FYX9B5NM4D');
+    </script>
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+
+    <!-- SEO -->
+
+    <title>
+        Web Development & APIs | Αναστασιάδης Θεοχάρης
+    </title>
+
+
+    <meta name="description"
+          content="Web Development, responsive applications, backend services, REST APIs και data-driven web solutions με Python, JavaScript και σύγχρονες τεχνολογίες ανάπτυξης.">
+
+
+    <meta name="keywords"
+          content="Web Development, Web Applications, REST APIs, Python, Django, Flask, FastAPI, JavaScript, HTML5, CSS3, Bootstrap, Backend, Frontend, Data-Driven Applications">
+
+
+    <meta name="author"
+          content="Θεοχάρης Αναστασιάδης">
+
+
+    <!-- Favicon -->
+
+    <link rel="icon"
+          type="image/x-icon"
+          href="./photos/anastasiadis-fav.ico">
+
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+
+    <!-- Animate.css -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <!-- Font Awesome -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+
+    <style>
+
+        /* =========================================
+           WEB DEVELOPMENT PAGE
+        ========================================= */
+
+        .web-hero {
+
+            padding: 90px 20px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(13, 110, 253, 0.08),
+                    rgba(13, 202, 240, 0.06)
+                );
+
+            border-bottom:
+                1px solid rgba(128, 128, 128, 0.15);
+        }
+
+
+        .web-hero .badge {
+
+            font-size: 0.85rem;
+
+            letter-spacing: 0.5px;
+
+            padding: 9px 14px;
+        }
+
+
+        .web-hero h1 {
+
+            font-size:
+                clamp(2.3rem, 5vw, 4rem);
+
+            font-weight: 700;
+
+            line-height: 1.15;
+        }
+
+
+        .web-hero .lead {
+
+            max-width: 850px;
+
+            margin: 20px auto;
+
+            font-size: 1.15rem;
+
+            line-height: 1.8;
+        }
+
+
+        .section-title {
+
+            font-weight: 700;
+
+            margin-bottom: 15px;
+        }
+
+
+        .section-subtitle {
+
+            max-width: 800px;
+
+            margin: 0 auto 45px;
+
+            color: #6c757d;
+
+            line-height: 1.7;
+        }
+
+
+        .web-section {
+
+            padding: 80px 20px;
+        }
+
+
+        .web-card {
+
+            height: 100%;
+
+            border:
+                1px solid rgba(128, 128, 128, 0.18);
+
+            border-radius: 16px;
+
+            transition:
+                all 0.3s ease;
+
+            background:
+                var(--bs-body-bg, #fff);
+        }
+
+
+        .web-card:hover {
+
+            transform:
+                translateY(-6px);
+
+            box-shadow:
+                0 12px 30px rgba(0, 0, 0, 0.10);
+        }
+
+
+        .web-icon {
+
+            width: 58px;
+
+            height: 58px;
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 14px;
+
+            font-size: 1.4rem;
+
+            margin-bottom: 20px;
+
+            background:
+                rgba(13, 110, 253, 0.10);
+
+            color:
+                #0d6efd;
+        }
+
+
+        .architecture-card {
+
+            border-left:
+                4px solid #0d6efd;
+        }
+
+
+        .workflow {
+
+            position: relative;
+        }
+
+
+        .workflow-step {
+
+            text-align: center;
+
+            padding: 25px 15px;
+
+            position: relative;
+        }
+
+
+        .workflow-number {
+
+            width: 48px;
+
+            height: 48px;
+
+            margin:
+                0 auto 15px;
+
+            border-radius: 50%;
+
+            background:
+                #0d6efd;
+
+            color: white;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-weight: 700;
+        }
+
+
+        .tech-badge {
+
+            display: inline-block;
+
+            padding: 9px 15px;
+
+            margin: 5px;
+
+            border:
+                1px solid rgba(128, 128, 128, 0.25);
+
+            border-radius: 50px;
+
+            font-size: 0.9rem;
+
+            background:
+                rgba(128, 128, 128, 0.04);
+        }
+
+
+        .positioning-box {
+
+            padding: 45px;
+
+            border-radius: 20px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #0d6efd,
+                    #084298
+                );
+
+            color: white;
+        }
+
+
+        .positioning-box h2 {
+
+            font-weight: 700;
+        }
+
+
+        .positioning-flow {
+
+            font-size: 1.15rem;
+
+            font-weight: 600;
+
+            line-height: 2;
+        }
+
+
+        .cta-section {
+
+            padding: 75px 20px;
+
+            text-align: center;
+
+            background:
+                rgba(128, 128, 128, 0.06);
+        }
+
+
+        @media (max-width: 768px) {
+
+            .web-hero {
+
+                padding: 65px 15px;
+            }
+
+
+            .web-section {
+
+                padding: 55px 15px;
+            }
+
+
+            .positioning-box {
+
+                padding: 30px 20px;
+            }
+
+        }
+
+
+        /* Dark mode */
+
+        body.dark-mode .web-card {
+
+            background:
+                #1b1f24;
+
+            border-color:
+                rgba(255, 255, 255, 0.10);
+        }
+
+
+        body.dark-mode .web-hero {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(13, 110, 253, 0.13),
+                    rgba(13, 202, 240, 0.08)
+                );
+        }
+
+
+        body.dark-mode .section-subtitle {
+
+            color:
+                #adb5bd;
+        }
+
+
+        body.dark-mode .tech-badge {
+
+            border-color:
+                rgba(255, 255, 255, 0.15);
+        }
+
+
+        body.dark-mode .cta-section {
+
+            background:
+                rgba(255, 255, 255, 0.04);
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================= -->
+
+    <header>
+
+
+        <!-- Social Bar -->
+
+        <div class="topbar-social">
+
+            <a href="https://www.facebook.com/Mirmidonas"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="Facebook"
+               aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+
+            <a href="https://www.instagram.com/_anastasiadisxaris/"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="Instagram"
+               aria-label="Instagram">
+
+                <i class="fab fa-instagram"></i>
+
+            </a>
+
+
+            <a href="https://x.com/MmaAcademy2"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="X"
+               aria-label="X">
+
+                <i class="fab fa-twitter"></i>
+
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/theoxaris-anastasiadis-ba69a8121/"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="LinkedIn"
+               aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+
+            <a href="https://github.com/AnastasiadisXaris"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="GitHub"
+               aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+
+            <a href="https://www.youtube.com/channel/UCkEfoBt3-PytDDySNzJ7COA"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="YouTube"
+               aria-label="YouTube">
+
+                <i class="fab fa-youtube"></i>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"
+             data-bs-theme="dark">
+
+            <div class="container-fluid">
+
+
+                <div class="d-flex align-items-center">
+
+                    <img src="./photos/Anastasiadis-logo.jpg"
+                         alt="Logo"
+                         class="dark-mode-icon me-2"
+                         style="height: 40px;">
+
+
+                    <a class="navbar-brand mb-0"
+                       href="index.html">
+
+                        Αναστασιάδης Θεοχάρης
+
+                        <br>
+
+                        <h6>
+                            | PHD Candidate | Data Scientist |
+                        </h6>
+
+                    </a>
+
+                </div>
+
+
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Άνοιγμα πλοήγησης">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+
+                <div class="collapse navbar-collapse"
+                     id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="index.html">
+
+                                <i class="fa fa-home"></i>
+
+                                Αρχική
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="about.html">
+
+                                <i class="fa fa-user"></i>
+
+                                Σχετικά με εμένα
+
+                            </a>
+
+                        </li>
+
+
+
+                        <!-- Sections -->
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle active"
+                               href="#"
+                               id="sectionsDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
+
+                                Ενότητες
+
+                            </a>
+
+
+                            <ul class="dropdown-menu"
+                                aria-labelledby="sectionsDropdown">
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="python.html">
+
+                                        <i class="fab fa-python"></i>
+
+                                        Python
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="marketing.html">
+
+                                        <i class="fa fa-bullhorn"></i>
+
+                                        Ψηφιακό Μάρκετινγκ
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="data-science.html">
+
+                                        <i class="fa fa-database"></i>
+
+                                        Επιστήμη των Δεδομένων
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="ai.html">
+
+                                        <i class="fa fa-robot"></i>
+
+                                        Τεχνητή Νοημοσύνη
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item active"
+                                       aria-current="page"
+                                       href="web-development.html">
+
+                                        <i class="fa fa-laptop-code"></i>
+
+                                        Web Development
+
+                                    </a>
+
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="projects.html">
+
+                                <i class="fa fa-code"></i>
+
+                                Projects
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="blog.html">
+
+                                <i class="fa fa-blog"></i>
+
+                                Blog
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="contact.html">
+
+                                <i class="fa fa-envelope"></i>
+
+                                Επικοινωνία
+
+                            </a>
+
+                        </li>
+
+
+                        <li class="nav-item">
+
+                            <button id="darkModeToggle"
+                                    class="btn btn-outline-light ms-2"
+                                    title="Εναλλαγή Dark Mode"
+                                    aria-label="Εναλλαγή Dark Mode">
+
+                                <i class="fas fa-moon"></i>
+
+                            </button>
+
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================
+         MAIN
+    ========================================= -->
+
+    <main>
+
+
+        <!-- =====================================================
+             HERO
+        ===================================================== -->
+
+        <section class="web-hero text-center">
+
+            <div class="container">
+
+
+                <span class="badge rounded-pill text-bg-primary mb-3">
+
+                    <i class="fa fa-laptop-code me-1"></i>
+
+                    Web Development · Applications & APIs
+
+                </span>
+
+
+                <h1 class="animate__animated animate__fadeInUp">
+
+                    Web Development
+
+                </h1>
+
+
+                <p class="lead animate__animated animate__fadeInUp animate__delay-1s">
+
+                    Από το responsive interface και το frontend
+                    μέχρι το backend, τα APIs και τις
+                    data-driven web εφαρμογές.
+
+                </p>
+
+
+                <div class="mt-4">
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-html5 me-1"></i>
+
+                        HTML5
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-css3-alt me-1"></i>
+
+                        CSS3
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-js me-1"></i>
+
+                        JavaScript
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-python me-1"></i>
+
+                        Python
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fa fa-plug me-1"></i>
+
+                        REST APIs
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             OVERVIEW
+        ===================================================== -->
+
+        <section class="web-section">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <h2 class="section-title">
+
+                        Από το Interface στην Εφαρμογή
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Το Web Development αποτελεί για μένα ένα
+                        ολοκληρωμένο τεχνολογικό πεδίο που συνδέει
+                        user interfaces, προγραμματισμό, δεδομένα,
+                        APIs και ψηφιακές υπηρεσίες.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="row g-4">
+
+
+                    <!-- Frontend -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+                            <div class="card-body">
+
+
+                                <div class="web-icon">
+
+                                    <i class="fa fa-desktop"></i>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Frontend Development
+
+                                </h4>
+
+
+                                <p>
+
+                                    Σχεδιασμός responsive και
+                                    λειτουργικών interfaces με
+                                    HTML, CSS, JavaScript και
+                                    σύγχρονα frameworks και libraries.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Backend -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+                            <div class="card-body">
+
+
+                                <div class="web-icon">
+
+                                    <i class="fa fa-server"></i>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Backend Development
+
+                                </h4>
+
+
+                                <p>
+
+                                    Server-side εφαρμογές,
+                                    business logic, databases
+                                    και services με έμφαση
+                                    στην Python και τα web frameworks.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- APIs -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+                            <div class="card-body">
+
+
+                                <div class="web-icon">
+
+                                    <i class="fa fa-plug"></i>
+
+                                </div>
+
+
+                                <h4>
+
+                                    APIs & Integration
+
+                                </h4>
+
+
+                                <p>
+
+                                    REST APIs για τη διασύνδεση
+                                    εφαρμογών, δεδομένων και
+                                    εξωτερικών υπηρεσιών.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Responsive -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+                            <div class="card-body">
+
+
+                                <div class="web-icon">
+
+                                    <i class="fa fa-mobile-alt"></i>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Responsive Design
+
+                                </h4>
+
+
+                                <p>
+
+                                    Προσαρμογή εφαρμογών και
+                                    interfaces σε διαφορετικές
+                                    οθόνες, συσκευές και περιβάλλοντα.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Data -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+                            <div class="card-body">
+
+
+                                <div class="web-icon">
+
+                                    <i class="fa fa-database"></i>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Data Integration
+
+                                </h4>
+
+
+                                <p>
+
+                                    Σύνδεση web εφαρμογών με
+                                    databases, datasets και
+                                    data-driven services.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Deployment -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+                            <div class="card-body">
+
+
+                                <div class="web-icon">
+
+                                    <i class="fa fa-cloud"></i>
+
+                                </div>
+
+
+                                <h4>
+
+                                    Deployment
+
+                                </h4>
+
+
+                                <p>
+
+                                    Ανάπτυξη και φιλοξενία
+                                    web εφαρμογών με εργαλεία
+                                    version control, containers
+                                    και cloud platforms.
+
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             FRONTEND
+        ===================================================== -->
+
+        <section class="web-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <h2 class="section-title">
+
+                        Frontend Development
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Η frontend ανάπτυξη αποτελεί το σημείο
+                        επαφής του χρήστη με την εφαρμογή και
+                        συνδυάζει δομή, αισθητική, λειτουργικότητα
+                        και usability.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fab fa-html5"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                HTML5
+
+                            </h4>
+
+
+                            <p>
+
+                                Semantic δομή και οργάνωση
+                                web σελίδων και εφαρμογών.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fab fa-css3-alt"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                CSS3
+
+                            </h4>
+
+
+                            <p>
+
+                                Layouts, responsive design,
+                                styling και visual consistency.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fab fa-js"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                JavaScript
+
+                            </h4>
+
+
+                            <p>
+
+                                Διαδραστικότητα και
+                                δυναμική λειτουργικότητα
+                                στις web εφαρμογές.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fab fa-bootstrap"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Bootstrap
+
+                            </h4>
+
+
+                            <p>
+
+                                Responsive components,
+                                grid system και
+                                συνεπές interface design.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             BACKEND & APIs
+        ===================================================== -->
+
+        <section class="web-section">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <h2 class="section-title">
+
+                        Backend · Applications · APIs
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Το backend αποτελεί το επίπεδο όπου
+                        η εφαρμογή συνδέεται με δεδομένα,
+                        business logic και εξωτερικές υπηρεσίες.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="row g-4">
+
+
+                    <!-- Python -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card architecture-card p-4">
+
+                            <div class="card-body">
+
+
+                                <h4>
+
+                                    <i class="fab fa-python text-primary me-2"></i>
+
+                                    Python
+
+                                </h4>
+
+
+                                <p>
+
+                                    Backend development,
+                                    automation, data processing
+                                    και web services.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Django -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card architecture-card p-4">
+
+                            <div class="card-body">
+
+
+                                <h4>
+
+                                    <i class="fa fa-layer-group text-primary me-2"></i>
+
+                                    Django
+
+                                </h4>
+
+
+                                <p>
+
+                                    Ανάπτυξη ολοκληρωμένων
+                                    web applications με
+                                    οργανωμένη αρχιτεκτονική.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Flask -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card architecture-card p-4">
+
+                            <div class="card-body">
+
+
+                                <h4>
+
+                                    <i class="fas fa-flask text-primary me-2"></i>
+
+                                    Flask
+
+                                </h4>
+
+
+                                <p>
+
+                                    Lightweight web applications
+                                    και backend services.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- FastAPI -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card architecture-card p-4">
+
+                            <div class="card-body">
+
+
+                                <h4>
+
+                                    <i class="fas fa-bolt text-primary me-2"></i>
+
+                                    FastAPI
+
+                                </h4>
+
+
+                                <p>
+
+                                    Modern API development
+                                    για data-driven applications
+                                    και services.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             DATA-DRIVEN APPLICATIONS
+        ===================================================== -->
+
+        <section class="web-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <span class="badge text-bg-primary mb-3">
+
+                        Web Development × Data
+
+                    </span>
+
+
+                    <h2 class="section-title">
+
+                        Data-Driven Web Applications
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Οι web εφαρμογές μπορούν να λειτουργήσουν
+                        ως το interface μέσα από το οποίο τα δεδομένα
+                        συλλέγονται, αναλύονται, οπτικοποιούνται
+                        και αξιοποιούνται.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-database"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Data Integration
+
+                            </h4>
+
+
+                            <p>
+
+                                Σύνδεση εφαρμογών με
+                                databases, APIs και
+                                διαφορετικές πηγές δεδομένων.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-chart-line"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Dashboards
+
+                            </h4>
+
+
+                            <p>
+
+                                Παρουσίαση δεδομένων,
+                                KPIs και analytics
+                                μέσα από web interfaces.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-exchange-alt"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                APIs
+
+                            </h4>
+
+
+                            <p>
+
+                                Ανταλλαγή δεδομένων
+                                μεταξύ εφαρμογών
+                                και υπηρεσιών.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="card web-card p-4 text-center">
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-cogs"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Automation
+
+                            </h4>
+
+
+                            <p>
+
+                                Αυτοματοποίηση διαδικασιών
+                                και data-driven workflows.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             DEVELOPMENT WORKFLOW
+        ===================================================== -->
+
+        <section class="web-section">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <h2 class="section-title">
+
+                        Από την Ιδέα στην Εφαρμογή
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Μια οργανωμένη διαδικασία ανάπτυξης
+                        από τον αρχικό σχεδιασμό μέχρι το
+                        deployment και τη συνεχή βελτίωση.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="row workflow g-4">
+
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="workflow-step">
+
+
+                            <div class="workflow-number">
+
+                                1
+
+                            </div>
+
+
+                            <h5>
+
+                                Problem
+
+                            </h5>
+
+
+                            <p>
+
+                                Ορισμός ανάγκης
+                                και στόχου.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="workflow-step">
+
+
+                            <div class="workflow-number">
+
+                                2
+
+                            </div>
+
+
+                            <h5>
+
+                                Design
+
+                            </h5>
+
+
+                            <p>
+
+                                Αρχιτεκτονική
+                                και interface.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="workflow-step">
+
+
+                            <div class="workflow-number">
+
+                                3
+
+                            </div>
+
+
+                            <h5>
+
+                                Development
+
+                            </h5>
+
+
+                            <p>
+
+                                Frontend,
+                                backend και APIs.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="workflow-step">
+
+
+                            <div class="workflow-number">
+
+                                4
+
+                            </div>
+
+
+                            <h5>
+
+                                Testing
+
+                            </h5>
+
+
+                            <p>
+
+                                Έλεγχος λειτουργικότητας
+                                και ποιότητας.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="workflow-step">
+
+
+                            <div class="workflow-number">
+
+                                5
+
+                            </div>
+
+
+                            <h5>
+
+                                Deployment
+
+                            </h5>
+
+
+                            <p>
+
+                                Δημοσίευση και
+                                φιλοξενία εφαρμογής.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-md-4 col-lg-2">
+
+                        <div class="workflow-step">
+
+
+                            <div class="workflow-number">
+
+                                6
+
+                            </div>
+
+
+                            <h5>
+
+                                Improvement
+
+                            </h5>
+
+
+                            <p>
+
+                                Monitoring,
+                                maintenance και εξέλιξη.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             TECHNOLOGY STACK
+        ===================================================== -->
+
+        <section class="web-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <h2 class="section-title">
+
+                        Tools & Technologies
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Τεχνολογίες και εργαλεία που χρησιμοποιώ
+                        για ανάπτυξη, διαχείριση, διασύνδεση
+                        και deployment web εφαρμογών.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Frontend -->
+
+                <div class="text-center mb-4">
+
+
+                    <h4>
+
+                        Frontend
+
+                    </h4>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-html5 me-1"></i>
+
+                        HTML5
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-css3-alt me-1"></i>
+
+                        CSS3
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-js me-1"></i>
+
+                        JavaScript
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-bootstrap me-1"></i>
+
+                        Bootstrap
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        Responsive Design
+
+                    </span>
+
+                </div>
+
+
+
+                <!-- Backend -->
+
+                <div class="text-center mb-4">
+
+
+                    <h4>
+
+                        Backend & APIs
+
+                    </h4>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-python me-1"></i>
+
+                        Python
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        Django
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        Flask
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        FastAPI
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        REST APIs
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        JSON
+
+                    </span>
+
+                </div>
+
+
+
+                <!-- Data -->
+
+                <div class="text-center mb-4">
+
+
+                    <h4>
+
+                        Data & Databases
+
+                    </h4>
+
+
+                    <span class="tech-badge">
+
+                        SQL
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        PostgreSQL
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        Data Integration
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        APIs
+
+                    </span>
+
+                </div>
+
+
+
+                <!-- Development -->
+
+                <div class="text-center">
+
+
+                    <h4>
+
+                        Development & Deployment
+
+                    </h4>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-git-alt me-1"></i>
+
+                        Git
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-github me-1"></i>
+
+                        GitHub
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        <i class="fab fa-docker me-1"></i>
+
+                        Docker
+
+                    </span>
+
+
+                    <span class="tech-badge">
+
+                        Vercel
+
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             WEB × DATA × AI
+        ===================================================== -->
+
+        <section class="web-section">
+
+            <div class="container">
+
+
+                <div class="positioning-box text-center">
+
+
+                    <h2 class="mb-4">
+
+                        Web Development × Data Science × AI
+
+                    </h2>
+
+
+                    <p class="lead mb-4">
+
+                        Το Web Development αποτελεί το τεχνολογικό
+                        επίπεδο στο οποίο τα δεδομένα και τα
+                        computational models μπορούν να μετατραπούν
+                        σε πραγματικές εφαρμογές και υπηρεσίες.
+
+                    </p>
+
+
+                    <div class="positioning-flow">
+
+
+                        Web Applications
+
+                        <span class="mx-2">
+                            →
+                        </span>
+
+
+                        Data
+
+                        <span class="mx-2">
+                            →
+                        </span>
+
+
+                        Analytics
+
+                        <span class="mx-2">
+                            →
+                        </span>
+
+
+                        AI / ML
+
+                        <span class="mx-2">
+                            →
+                        </span>
+
+
+                        Intelligent Applications
+
+
+                    </div>
+
+
+                    <p class="mt-4 mb-0">
+
+                        Η προσέγγιση αυτή συνδέει την ανάπτυξη
+                        λογισμικού με την Επιστήμη των Δεδομένων
+                        και την Τεχνητή Νοημοσύνη, δημιουργώντας
+                        εφαρμογές που δεν περιορίζονται στην
+                        παρουσίαση πληροφορίας αλλά μπορούν να
+                        υποστηρίζουν ανάλυση, αυτοματοποίηση
+                        και λήψη αποφάσεων.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             APPLICATION AREAS
+        ===================================================== -->
+
+        <section class="web-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+
+                    <span class="badge text-bg-primary mb-3">
+
+                        Applications
+
+                    </span>
+
+
+                    <h2 class="section-title">
+
+                        Εφαρμογές Web Development
+
+                    </h2>
+
+
+                    <p class="section-subtitle">
+
+                        Το Web Development μπορεί να αξιοποιηθεί
+                        σε διαφορετικά περιβάλλοντα, από προσωπικά
+                        και εκπαιδευτικά projects μέχρι data-driven
+                        και intelligent applications.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-globe"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Web Applications
+
+                            </h4>
+
+
+                            <p>
+
+                                Σύγχρονες responsive εφαρμογές
+                                για ψηφιακές υπηρεσίες,
+                                πληροφοριακά συστήματα και
+                                interactive experiences.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-graduation-cap"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Educational Applications
+
+                            </h4>
+
+
+                            <p>
+
+                                Ψηφιακά εργαλεία, learning
+                                applications και web-based
+                                εκπαιδευτικές εμπειρίες.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-chart-bar"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Data Applications
+
+                            </h4>
+
+
+                            <p>
+
+                                Dashboards και web interfaces
+                                για εξερεύνηση, οπτικοποίηση
+                                και ανάλυση δεδομένων.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-server"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Backend Services
+
+                            </h4>
+
+
+                            <p>
+
+                                Services και APIs που επιτρέπουν
+                                σε διαφορετικές εφαρμογές να
+                                επικοινωνούν και να ανταλλάσσουν δεδομένα.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-brain"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                AI-Powered Applications
+
+                            </h4>
+
+
+                            <p>
+
+                                Ενσωμάτωση machine learning και
+                                artificial intelligence models
+                                σε web-based εφαρμογές.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="web-icon">
+
+                                <i class="fa fa-cogs"></i>
+
+                            </div>
+
+
+                            <h4>
+
+                                Digital Solutions
+
+                            </h4>
+
+
+                            <p>
+
+                                Ψηφιακές λύσεις που συνδυάζουν
+                                software development, data και
+                                αυτοματοποίηση διαδικασιών.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             RESEARCH CONNECTION
+        ===================================================== -->
+
+        <section class="web-section">
+
+            <div class="container">
+
+
+                <div class="row align-items-center g-5">
+
+
+                    <div class="col-lg-6">
+
+
+                        <span class="badge text-bg-primary mb-3">
+
+                            Research & Technology
+
+                        </span>
+
+
+                        <h2 class="section-title">
+
+                            Web Development ως μέρος
+                            ενός ευρύτερου οικοσυστήματος
+
+                        </h2>
+
+
+                        <p class="lead">
+
+                            Η ανάπτυξη εφαρμογών αποτελεί
+                            σημαντικό μέρος της ευρύτερης
+                            τεχνολογικής μου δραστηριότητας.
+
+                        </p>
+
+
+                        <p>
+
+                            Στο πλαίσιο της Επιστήμης των Δεδομένων
+                            και της Τεχνητής Νοημοσύνης, μια web
+                            εφαρμογή μπορεί να λειτουργήσει ως
+                            το επίπεδο αλληλεπίδρασης μεταξύ
+                            χρήστη, δεδομένων και computational models.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="col-lg-6">
+
+
+                        <div class="card web-card p-4">
+
+
+                            <div class="card-body">
+
+
+                                <h4>
+
+                                    <i class="fa fa-flask text-primary me-2"></i>
+
+                                    Research Direction
+
+                                </h4>
+
+
+                                <p>
+
+                                    Η σύνδεση Web Development,
+                                    Data Science και AI επιτρέπει
+                                    τη δημιουργία εφαρμογών που
+                                    υποστηρίζουν συλλογή δεδομένων,
+                                    analytics, prediction,
+                                    recommendation και
+                                    data-driven decision making.
+
+                                </p>
+
+
+                                <p class="mb-0">
+
+
+                                    <strong>
+
+                                        Web Applications ×
+                                        Data Science × AI
+
+                                    </strong>
+
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PROJECTS CTA
+        ===================================================== -->
+
+        <section class="cta-section">
+
+            <div class="container">
+
+
+                <h2 class="fw-bold">
+
+                    Explore My Web Projects
+
+                </h2>
+
+
+                <p class="lead mt-3">
+
+                    Δείτε εφαρμογές, websites και projects
+                    που συνδέουν Web Development, δεδομένα
+                    και σύγχρονες τεχνολογίες.
+
+                </p>
+
+
+                <a href="projects.html"
+                   class="btn btn-primary btn-lg mt-3">
+
+                    <i class="fa fa-code me-2"></i>
+
+                    Δες τα Projects
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================= -->
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+
+        <div class="container">
+
+
+            <div class="row text-center text-md-start">
+
+
+                <!-- About -->
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+
+
+                    <h5 class="text-uppercase mb-4 fw-bold text-info">
+
+                        ΑΝΑΣΤΑΣΙΑΔΗΣ ΘΕΟΧΑΡΗΣ
+
+                    </h5>
+
+
+                    <p>
+
+                        Research · Technology · Education
+
+                    </p>
+
+
+                    <p>
+
+                        Python, Data Science, Artificial Intelligence,
+                        Digital Marketing και Web Development μέσα
+                        από ένα προσωπικό portfolio που συνδέει
+                        έρευνα, τεχνολογία και εκπαίδευση.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Navigation -->
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+
+
+                    <h5 class="text-uppercase mb-4 fw-bold text-info">
+
+                        ΓΡΗΓΟΡΗ ΠΛΟΗΓΗΣΗ
+
+                    </h5>
+
+
+                    <p>
+
+                        <a href="index.html"
+                           class="text-white text-decoration-none">
+
+                            <i class="fa fa-home"></i>
+
+                            Αρχική
+
+                        </a>
+
+                    </p>
+
+
+                    <p>
+
+                        <a href="about.html"
+                           class="text-white text-decoration-none">
+
+                            <i class="fa fa-user"></i>
+
+                            Σχετικά με Εμένα
+
+                        </a>
+
+                    </p>
+
+
+                    <p>
+
+                        <a href="projects.html"
+                           class="text-white text-decoration-none">
+
+                            <i class="fa fa-code"></i>
+
+                            Projects
+
+                        </a>
+
+                    </p>
+
+
+                    <p>
+
+                        <a href="blog.html"
+                           class="text-white text-decoration-none">
+
+                            <i class="fa fa-blog"></i>
+
+                            Blog
+
+                        </a>
+
+                    </p>
+
+
+                    <p>
+
+                        <a href="contact.html"
+                           class="text-white text-decoration-none">
+
+                            <i class="fa fa-envelope"></i>
+
+                            Επικοινωνία
+
+                        </a>
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Contact -->
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+
+
+                    <h5 class="text-uppercase mb-4 fw-bold text-info">
+
+                        ΕΠΙΚΟΙΝΩΝΙΑ
+
+                    </h5>
+
+
+                    <p>
+
+                        <i class="fas fa-home me-2"></i>
+
+                        Κατερίνη - Πιερία, Ελλάδα
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="fas fa-envelope me-2"></i>
+
+                        theoxarisanastasiadis9@gmail.com
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="fas fa-phone me-2"></i>
+
+                        +30 6949612978
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Newsletter -->
+
+                <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mt-3">
+
+
+                    <h5 class="text-uppercase mb-4 fw-bold text-info">
+
+                        Newsletter
+
+                    </h5>
+
+
+                    <p>
+
+                        Εγγράψου για να λαμβάνεις ενημερώσεις
+                        σχετικά με νέα projects, άρθρα και
+                        εκπαιδευτικό περιεχόμενο.
+
+                    </p>
+
+
+                    <form id="newsletter-form">
+
+
+                        <div class="input-group mb-3">
+
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="newsletter-email"
+                                   placeholder="Το email σου"
+                                   aria-label="Email"
+                                   required>
+
+
+                            <button class="btn btn-info"
+                                    type="submit">
+
+                                Εγγραφή
+
+                            </button>
+
+
+                        </div>
+
+
+                    </form>
+
+
+                    <div id="newsletter-message"
+                         class="mt-2"
+                         aria-live="polite">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Copyright -->
+
+            <div class="text-center py-3 border-top mt-4">
+
+
+                <p class="mb-0">
+
+                    <strong>
+
+                        ©
+
+                        <span id="current-year"></span>
+
+                        Αναστασιάδης Θεοχάρης.
+
+                        All rights reserved.
+
+                    </strong>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         SCRIPTS
+    ========================================= -->
+
+
+    <!-- Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Dark Mode -->
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+
+            const toggleBtn =
+                document.getElementById("darkModeToggle");
+
+
+            const darkMode =
+                localStorage.getItem("dark-mode") === "enabled";
+
+
+            if (darkMode) {
+
+                document.body.classList.add("dark-mode");
+
+                toggleBtn.innerHTML =
+                    '<i class="fas fa-sun"></i>';
+
+            }
+
+
+            toggleBtn.addEventListener("click", () => {
+
+
+                document.body.classList.toggle("dark-mode");
+
+
+                const enabled =
+                    document.body.classList.contains("dark-mode");
+
+
+                localStorage.setItem(
+                    "dark-mode",
+                    enabled ? "enabled" : "disabled"
+                );
+
+
+                toggleBtn.innerHTML = enabled
+                    ? '<i class="fas fa-sun"></i>'
+                    : '<i class="fas fa-moon"></i>';
+
+            });
+
+        });
+
+    </script>
+
+
+
+    <!-- Newsletter -->
+
+    <script>
+
+        document.getElementById("newsletter-form")
+            .addEventListener("submit", function (event) {
+
+
+                event.preventDefault();
+
+
+                const email =
+                    document.getElementById("newsletter-email").value;
+
+
+                const messageDiv =
+                    document.getElementById("newsletter-message");
+
+
+                if (!email) {
+
+                    messageDiv.innerHTML =
+                        '<p class="text-danger">Παρακαλώ εισάγετε ένα έγκυρο email.</p>';
+
+                    return;
+
+                }
+
+
+                const mailchimpUrl =
+                    "https://anastasiadisxaristechnology.us12.list-manage.com/subscribe/post-json?u=2eaf8adc1a0f285673787b957&id=0a4305bfea&c=?";
+
+
+                const formData =
+                    new FormData();
+
+
+                formData.append("EMAIL", email);
+
+
+                fetch(mailchimpUrl, {
+
+                    method: "POST",
+
+                    mode: "no-cors",
+
+                    body: formData
+
+                })
+
+                    .then(() => {
+
+                        messageDiv.innerHTML =
+                            '<p class="text-success">Ευχαριστούμε για την εγγραφή! 🎉</p>';
+
+
+                        document
+                            .getElementById("newsletter-form")
+                            .reset();
+
+                    })
+
+                    .catch(() => {
+
+                        messageDiv.innerHTML =
+                            '<p class="text-danger">Κάτι πήγε στραβά. Δοκιμάστε ξανά.</p>';
+
+                    });
+
+            });
+
+    </script>
+
+
+
+    <!-- Active Navigation -->
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+
+            const currentPage =
+                window.location.pathname
+                    .split("/")
+                    .pop() || "index.html";
+
+
+            document
+                .querySelectorAll(".navbar-nav .nav-link")
+                .forEach(link => {
+
+
+                    const href =
+                        link.getAttribute("href");
+
+
+                    if (href === currentPage) {
+
+                        link.classList.add("active");
+
+                        link.setAttribute(
+                            "aria-current",
+                            "page"
+                        );
+
+                    }
+
+                });
+
+        });
+
+    </script>
+
+
+
+    <!-- Dynamic Year -->
+
+    <script>
+
+        document.getElementById("current-year")
+            .textContent = new Date().getFullYear();
+
+    </script>
+
+
+
+    <!-- Tidio -->
+
+    <script src="//code.tidio.co/0uq2bawueetlg6unxm8mk36hcbjzg55f.js"
+            async>
+    </script>
+
+
+</body>
+
+</html>
+```
