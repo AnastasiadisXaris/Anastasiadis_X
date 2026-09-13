@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================================================
+         GOOGLE ANALYTICS
+         ========================================================= -->
+
+    <script async
+        src="https://www.googletagmanager.com/gtag/js?id=G-FYX9B5NM4D">
+    </script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-FYX9B5NM4D');
+
+    </script>
+
+
+    <!-- =========================================================
+         META
+         ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+
+    <!-- SEO -->
+
+    <title>
+        Theoxaris Anastasiadis | Data Science · AI · Marketing Analytics
+    </title>
+
+
+    <meta name="description"
+          content="Theoxaris Anastasiadis — PhD Candidate, Data Science, Artificial Intelligence, Machine Learning, Marketing Analytics, Python, Web Development and Adult Education.">
+
+
+    <meta name="keywords"
+          content="Theoxaris Anastasiadis, Data Science, Artificial Intelligence, Machine Learning, Marketing Analytics, Python, NLP, Web Development, Digital Marketing, Consumer Analytics, Preference Modeling, Adult Education">
+
+
+    <meta name="author"
+          content="Theoxaris Anastasiadis">
+
+
+    <!-- Language alternatives -->
+
+    <link rel="alternate"
+          hreflang="el"
+          href="index.html">
+
+
+    <link rel="alternate"
+          hreflang="en"
+          href="index-en.html">
+
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="index.html">
+
+
+    <!-- Canonical -->
+
+    <link rel="canonical"
+          href="index-en.html">
+
+
+    <!-- =========================================================
+         FAVICON
+         ========================================================= -->
+
+    <link rel="icon"
+          type="image/x-icon"
+          href="./photos/anastasiadis-fav.ico">
+
+
+    <!-- =========================================================
+         OPEN GRAPH
+         ========================================================= -->
+
+    <meta property="og:title"
+          content="Theoxaris Anastasiadis | Data Science · AI · Marketing Analytics">
+
+
+    <meta property="og:description"
+          content="PhD Candidate and Informatics professional working across Data Science, AI, Machine Learning, Marketing Analytics, Python and Education.">
+
+
+    <meta property="og:type"
+          content="website">
+
+
+    <meta property="og:url"
+          content="index-en.html">
+
+
+    <!-- =========================================================
+         BOOTSTRAP
+         ========================================================= -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+
+    <!-- =========================================================
+         ANIMATE.CSS
+         ========================================================= -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <!-- =========================================================
+         FONT AWESOME
+         ========================================================= -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          rel="stylesheet">
+
+
+    <!-- =========================================================
+         CUSTOM CSS
+         ========================================================= -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+
+    <!-- =========================================================
+         PAGE-SPECIFIC CSS
+         ========================================================= -->
+
+    <style>
+
+        /* =====================================================
+           HERO
+           ===================================================== */
+
+        .home-hero {
+
+            padding: 100px 20px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(13, 110, 253, 0.09),
+                    rgba(25, 135, 84, 0.06)
+                );
+
+            border-bottom:
+                1px solid rgba(128, 128, 128, 0.15);
+
+        }
+
+
+        .home-hero .badge {
+
+            font-size: 0.85rem;
+
+            letter-spacing: 0.5px;
+
+            padding: 9px 15px;
+
+        }
+
+
+        .home-hero h1 {
+
+            font-size:
+                clamp(2.4rem, 5vw, 4.5rem);
+
+            font-weight: 700;
+
+            line-height: 1.12;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .home-hero .lead {
+
+            max-width: 900px;
+
+            margin: 0 auto;
+
+            font-size: 1.2rem;
+
+            line-height: 1.8;
+
+        }
+
+
+        .hero-name {
+
+            display: block;
+
+            font-size:
+                clamp(1.1rem, 2.5vw, 1.45rem);
+
+            font-weight: 500;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        /* =====================================================
+           HERO BADGES
+           ===================================================== */
+
+        .home-tech-badge {
+
+            display: inline-block;
+
+            padding: 9px 15px;
+
+            margin: 5px;
+
+            border:
+                1px solid rgba(128, 128, 128, 0.25);
+
+            border-radius: 50px;
+
+            font-size: 0.9rem;
+
+            background:
+                rgba(128, 128, 128, 0.04);
+
+        }
+
+
+        /* =====================================================
+           SECTIONS
+           ===================================================== */
+
+        .home-section {
+
+            padding: 80px 20px;
+
+        }
+
+
+        .home-section-title {
+
+            font-weight: 700;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        .home-section-subtitle {
+
+            max-width: 800px;
+
+            margin:
+                0 auto 45px;
+
+            color: #6c757d;
+
+            line-height: 1.75;
+
+        }
+
+
+        /* =====================================================
+           CARDS
+           ===================================================== */
+
+        .home-card {
+
+            height: 100%;
+
+            padding: 30px;
+
+            border:
+                1px solid rgba(128, 128, 128, 0.18);
+
+            border-radius: 16px;
+
+            background:
+                var(--bs-body-bg, #fff);
+
+            transition:
+                all 0.3s ease;
+
+        }
+
+
+        .home-card:hover {
+
+            transform:
+                translateY(-6px);
+
+            box-shadow:
+                0 12px 30px rgba(0, 0, 0, 0.10);
+
+        }
+
+
+        .home-icon {
+
+            width: 60px;
+
+            height: 60px;
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 14px;
+
+            font-size: 1.45rem;
+
+            margin-bottom: 20px;
+
+            background:
+                rgba(13, 110, 253, 0.10);
+
+            color:
+                #0d6efd;
+
+        }
+
+
+        .home-card h3 {
+
+            font-size: 1.25rem;
+
+            font-weight: 700;
+
+        }
+
+
+        .home-card p {
+
+            line-height: 1.7;
+
+            margin-bottom: 0;
+
+        }
+
+
+        /* =====================================================
+           POSITIONING
+           ===================================================== */
+
+        .positioning-box {
+
+            padding: 50px 40px;
+
+            border-radius: 20px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #0d6efd,
+                    #084298
+                );
+
+            color: white;
+
+        }
+
+
+        .positioning-box h2 {
+
+            font-weight: 700;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .positioning-flow {
+
+            font-size: 1.15rem;
+
+            font-weight: 600;
+
+            line-height: 1.9;
+
+        }
+
+
+        /* =====================================================
+           RESEARCH BOX
+           ===================================================== */
+
+        .research-box {
+
+            padding: 35px;
+
+            border-left:
+                4px solid #0d6efd;
+
+            border-radius: 12px;
+
+            background:
+                rgba(13, 110, 253, 0.05);
+
+        }
+
+
+        .research-box h3 {
+
+            font-weight: 700;
+
+        }
+
+
+        /* =====================================================
+           CTA
+           ===================================================== */
+
+        .home-cta {
+
+            padding: 80px 20px;
+
+            text-align: center;
+
+            background:
+                rgba(128, 128, 128, 0.06);
+
+        }
+
+
+        /* =====================================================
+           DARK MODE
+           ===================================================== */
+
+        body.dark-mode .home-hero {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(13, 110, 253, 0.13),
+                    rgba(25, 135, 84, 0.08)
+                );
+
+        }
+
+
+        body.dark-mode .home-card {
+
+            background: #1b1f24;
+
+            border-color:
+                rgba(255, 255, 255, 0.10);
+
+        }
+
+
+        body.dark-mode .home-section-subtitle {
+
+            color: #adb5bd;
+
+        }
+
+
+        body.dark-mode .home-tech-badge {
+
+            border-color:
+                rgba(255, 255, 255, 0.15);
+
+        }
+
+
+        body.dark-mode .research-box {
+
+            background:
+                rgba(13, 110, 253, 0.08);
+
+        }
+
+
+        body.dark-mode .home-cta {
+
+            background:
+                rgba(255, 255, 255, 0.04);
+
+        }
+
+
+        /* =====================================================
+           RESPONSIVE
+           ===================================================== */
+
+        @media (max-width: 768px) {
+
+            .home-hero {
+
+                padding:
+                    70px 15px;
+
+            }
+
+
+            .home-section {
+
+                padding:
+                    55px 15px;
+
+            }
+
+
+            .positioning-box {
+
+                padding:
+                    35px 20px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================================
+         HEADER
+         ========================================================= -->
+
+    <header>
+
+
+        <!-- SOCIAL BAR -->
+
+        <div class="topbar-social">
+
+            <a href="https://www.facebook.com/Mirmidonas"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="Facebook"
+               aria-label="Facebook">
+
+                <i class="fab fa-facebook-f"></i>
+
+            </a>
+
+
+            <a href="https://www.instagram.com/_anastasiadisxaris/"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="Instagram"
+               aria-label="Instagram">
+
+                <i class="fab fa-instagram"></i>
+
+            </a>
+
+
+            <a href="https://x.com/MmaAcademy2"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="X"
+               aria-label="X">
+
+                <i class="fab fa-twitter"></i>
+
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/theoxaris-anastasiadis-ba69a8121/"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="LinkedIn"
+               aria-label="LinkedIn">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
+
+            <a href="https://github.com/AnastasiadisXaris"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="GitHub"
+               aria-label="GitHub">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+
+            <a href="https://www.youtube.com/channel/UCkEfoBt3-PytDDySNzJ7COA"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="YouTube"
+               aria-label="YouTube">
+
+                <i class="fab fa-youtube"></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- =====================================================
+             NAVBAR
+             ===================================================== -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"
+             data-bs-theme="dark">
+
+            <div class="container-fluid">
+
+
+                <!-- BRAND -->
+
+                <div class="d-flex align-items-center">
+
+                    <img src="./photos/Anastasiadis-logo.jpg"
+                         alt="Theoxaris Anastasiadis Logo"
+                         class="dark-mode-icon me-2"
+                         style="height: 40px;">
+
+
+                    <a class="navbar-brand mb-0"
+                       href="index-en.html">
+
+                        Theoxaris Anastasiadis
+
+                        <br>
+
+                        <small>
+                            PhD Candidate | Data Scientist
+                        </small>
+
+                    </a>
+
+                </div>
+
+
+                <!-- MOBILE TOGGLE -->
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+
+                <!-- NAVIGATION -->
+
+                <div class="collapse navbar-collapse"
+                     id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+
+
+                        <!-- HOME -->
+
+                        <li class="nav-item">
+
+                            <a class="nav-link active"
+                               aria-current="page"
+                               href="index-en.html">
+
+                                <i class="fa fa-home"></i>
+
+                                Home
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- ABOUT -->
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="about-en.html">
+
+                                <i class="fa fa-brain"></i>
+
+                                About Me
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- SECTIONS -->
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle"
+                               href="#"
+                               id="sectionsDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
+
+                                Sections
+
+                            </a>
+
+
+                            <ul class="dropdown-menu"
+                                aria-labelledby="sectionsDropdown">
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="python-en.html">
+
+                                        <i class="fab fa-python"></i>
+
+                                        Python
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="marketing-en.html">
+
+                                        <i class="fa fa-bullhorn"></i>
+
+                                        Digital Marketing
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="data-science-en.html">
+
+                                        <i class="fa fa-database"></i>
+
+                                        Data Science
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="ai-en.html">
+
+                                        <i class="fa fa-robot"></i>
+
+                                        Artificial Intelligence
+
+                                    </a>
+
+                                </li>
+
+
+                                <li>
+
+                                    <a class="dropdown-item"
+                                       href="web-development-en.html">
+
+                                        <i class="fa fa-code"></i>
+
+                                        Web Development
+
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+
+                        <!-- PROJECTS -->
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="projects-en.html">
+
+                                <i class="fa fa-code"></i>
+
+                                Projects
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- BLOG -->
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="blog-en.html">
+
+                                <i class="fa fa-blog"></i>
+
+                                Blog
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- CONTACT -->
+
+                        <li class="nav-item">
+
+                            <a class="nav-link"
+                               href="contact-en.html">
+
+                                <i class="fa fa-envelope"></i>
+
+                                Contact
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- LANGUAGE -->
+
+                        <li class="nav-item ms-lg-2">
+
+                            <a class="nav-link"
+                               href="index.html"
+                               title="Switch to Greek">
+
+                                🇬🇷 EL
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- DARK MODE -->
+
+                        <li class="nav-item">
+
+                            <button id="darkModeToggle"
+                                    class="btn btn-outline-light ms-2"
+                                    title="Toggle Dark Mode"
+                                    aria-label="Toggle Dark Mode">
+
+                                <i class="fas fa-moon"></i>
+
+                            </button>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN
+         ========================================================= -->
+
+    <main>
+
+
+        <!-- =====================================================
+             HERO
+             ===================================================== -->
+
+        <section class="home-hero text-center">
+
+            <div class="container">
+
+
+                <span class="badge rounded-pill text-bg-primary mb-3">
+
+                    <i class="fa fa-flask me-1"></i>
+
+                    Research · Technology · Education
+
+                </span>
+
+
+                <span class="hero-name">
+
+                    Theoxaris Anastasiadis
+
+                </span>
+
+
+                <h1 class="animate__animated animate__fadeInUp">
+
+                    Data Science, AI &amp; Marketing Analytics
+
+                </h1>
+
+
+                <p class="lead animate__animated animate__fadeInUp animate__delay-1s">
+
+                    PhD Candidate and Informatics professional
+                    working at the intersection of
+                    Data Science, Artificial Intelligence,
+                    Machine Learning and Marketing Analytics.
+
+                </p>
+
+
+                <div class="mt-4">
+
+
+                    <span class="home-tech-badge">
+
+                        <i class="fab fa-python me-1"></i>
+
+                        Python
+
+                    </span>
+
+
+                    <span class="home-tech-badge">
+
+                        <i class="fa fa-database me-1"></i>
+
+                        Data Science
+
+                    </span>
+
+
+                    <span class="home-tech-badge">
+
+                        <i class="fa fa-brain me-1"></i>
+
+                        Machine Learning
+
+                    </span>
+
+
+                    <span class="home-tech-badge">
+
+                        <i class="fa fa-robot me-1"></i>
+
+                        AI
+
+                    </span>
+
+
+                    <span class="home-tech-badge">
+
+                        <i class="fa fa-chart-line me-1"></i>
+
+                        Marketing Analytics
+
+                    </span>
+
+                </div>
+
+
+                <div class="mt-4">
+
+                    <a href="projects-en.html"
+                       class="btn btn-primary btn-lg me-2">
+
+                        <i class="fa fa-code me-2"></i>
+
+                        Explore Projects
+
+                    </a>
+
+
+                    <a href="about-en.html"
+                       class="btn btn-outline-primary btn-lg">
+
+                        <i class="fa fa-user me-2"></i>
+
+                        About Me
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROFESSIONAL PROFILE
+             ===================================================== -->
+
+        <section class="home-section">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+                    <h2 class="home-section-title">
+
+                        Professional Profile
+
+                    </h2>
+
+
+                    <p class="home-section-subtitle">
+
+                        My work brings together academic research,
+                        technological development and education,
+                        with a focus on data-driven and intelligent
+                        approaches to real-world problems.
+
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- RESEARCH -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-flask"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Research
+
+                            </h3>
+
+
+                            <p>
+
+                                Research at the intersection of
+                                Data Science and Marketing Analytics,
+                                with particular interest in
+                                preference modeling, consumer behavior
+                                and data-driven decision-making.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TECHNOLOGY -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-microchip"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Technology
+
+                            </h3>
+
+
+                            <p>
+
+                                Development and application of
+                                Python, Machine Learning, Artificial
+                                Intelligence, Data Science and
+                                Web technologies.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EDUCATION -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-graduation-cap"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Education
+
+                            </h3>
+
+
+                            <p>
+
+                                Adult education and learning experiences
+                                in programming, artificial intelligence,
+                                digital technologies and computing.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DATA → INTELLIGENCE → DECISIONS
+             ===================================================== -->
+
+        <section class="home-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="positioning-box text-center">
+
+
+                    <h2>
+
+                        From Data to Intelligent Decisions
+
+                    </h2>
+
+
+                    <p class="positioning-flow mb-0">
+
+                        Data
+                        <span class="mx-2">→</span>
+
+                        Analytics
+                        <span class="mx-2">→</span>
+
+                        Machine Learning
+                        <span class="mx-2">→</span>
+
+                        Intelligence
+                        <span class="mx-2">→</span>
+
+                        Decisions
+
+                    </p>
+
+
+                    <p class="mt-4 mb-0">
+
+                        I am interested in how data can be transformed
+                        into knowledge, intelligent models and
+                        meaningful decisions.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             AREAS
+             ===================================================== -->
+
+        <section class="home-section">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+                    <h2 class="home-section-title">
+
+                        Areas of Focus
+
+                    </h2>
+
+
+                    <p class="home-section-subtitle">
+
+                        A multidisciplinary profile connecting
+                        computational methods, digital technologies,
+                        marketing and education.
+
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- DATA SCIENCE -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-database"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Data Science
+
+                            </h3>
+
+
+                            <p>
+
+                                Data analysis, exploratory analysis,
+                                visualization, feature engineering,
+                                statistical methods and machine learning.
+
+                            </p>
+
+
+                            <a href="data-science-en.html"
+                               class="btn btn-outline-primary mt-4">
+
+                                Explore Data Science
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- AI -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-robot"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Artificial Intelligence
+
+                            </h3>
+
+
+                            <p>
+
+                                Machine Learning, Deep Learning,
+                                Natural Language Processing,
+                                Computer Vision, Generative AI
+                                and Explainable AI.
+
+                            </p>
+
+
+                            <a href="ai-en.html"
+                               class="btn btn-outline-primary mt-4">
+
+                                Explore AI
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MARKETING -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-chart-line"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Marketing Analytics
+
+                            </h3>
+
+
+                            <p>
+
+                                Data-driven marketing, digital analytics,
+                                consumer behavior and the use of data
+                                to support marketing decisions.
+
+                            </p>
+
+
+                            <a href="marketing-en.html"
+                               class="btn btn-outline-primary mt-4">
+
+                                Explore Marketing
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PYTHON -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card">
+
+                            <div class="home-icon">
+
+                                <i class="fab fa-python"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Python
+
+                            </h3>
+
+
+                            <p>
+
+                                Python development for data analysis,
+                                machine learning, artificial intelligence,
+                                APIs and data-driven applications.
+
+                            </p>
+
+
+                            <a href="python-en.html"
+                               class="btn btn-outline-primary mt-4">
+
+                                Explore Python
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- WEB DEVELOPMENT -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-code"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Web Development
+
+                            </h3>
+
+
+                            <p>
+
+                                Web applications, APIs and digital
+                                solutions that connect software,
+                                data and intelligent technologies.
+
+                            </p>
+
+
+                            <a href="web-development-en.html"
+                               class="btn btn-outline-primary mt-4">
+
+                                Explore Web Development
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EDUCATION -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="home-card">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-chalkboard-teacher"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Adult Education
+
+                            </h3>
+
+
+                            <p>
+
+                                Educational applications and learning
+                                experiences in programming, AI and
+                                digital technologies.
+
+                            </p>
+
+
+                            <a href="about-en.html"
+                               class="btn btn-outline-primary mt-4">
+
+                                Learn More
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             RESEARCH FOCUS
+             ===================================================== -->
+
+        <section class="home-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="text-center mb-5">
+
+                    <span class="badge rounded-pill text-bg-primary mb-3">
+
+                        PhD Research
+
+                    </span>
+
+
+                    <h2 class="home-section-title">
+
+                        Data Science × Marketing Analytics
+
+                    </h2>
+
+
+                    <p class="home-section-subtitle">
+
+                        My doctoral research explores algorithmic
+                        and data-driven approaches to marketing,
+                        with particular interest in consumer
+                        preferences, behavior and decision-making.
+
+                    </p>
+
+                </div>
+
+
+                <div class="research-box">
+
+
+                    <h3>
+
+                        Research Direction
+
+                    </h3>
+
+
+                    <p>
+
+                        The broader research perspective connects
+                        Data Science and Marketing Analytics through
+                        machine learning and computational approaches
+                        for understanding preferences and supporting
+                        data-driven decisions.
+
+                    </p>
+
+
+                    <div class="mt-4">
+
+
+                        <span class="home-tech-badge">
+
+                            Consumer Analytics
+
+                        </span>
+
+
+                        <span class="home-tech-badge">
+
+                            Preference Modeling
+
+                        </span>
+
+
+                        <span class="home-tech-badge">
+
+                            Consumer Behavior
+
+                        </span>
+
+
+                        <span class="home-tech-badge">
+
+                            Machine Learning
+
+                        </span>
+
+
+                        <span class="home-tech-badge">
+
+                            NLP
+
+                        </span>
+
+
+                        <span class="home-tech-badge">
+
+                            Explainable AI
+
+                        </span>
+
+
+                        <span class="home-tech-badge">
+
+                            Decision Making
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="mt-4">
+
+                        <a href="about-en.html"
+                           class="btn btn-primary">
+
+                            <i class="fa fa-flask me-2"></i>
+
+                            Explore My Research
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROJECTS
+             ===================================================== -->
+
+        <section class="home-section">
+
+            <div class="container">
+
+
+                <div class="text-center">
+
+                    <h2 class="home-section-title">
+
+                        From Research to Applications
+
+                    </h2>
+
+
+                    <p class="home-section-subtitle">
+
+                        Alongside research and education, I develop
+                        practical applications that combine
+                        programming, data, analytics and AI.
+
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fab fa-python"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Python Applications
+
+                            </h3>
+
+
+                            <p>
+
+                                Educational and data-driven
+                                applications built with Python.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-robot"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                AI Applications
+
+                            </h3>
+
+
+                            <p>
+
+                                Machine Learning and NLP applications
+                                that demonstrate practical AI use.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-chart-pie"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Analytics Dashboards
+
+                            </h3>
+
+
+                            <p>
+
+                                Interactive dashboards for data
+                                exploration and analytical insights.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-globe"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Web Applications
+
+                            </h3>
+
+
+                            <p>
+
+                                Web-based applications connecting
+                                software, data and digital services.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="text-center mt-5">
+
+                    <a href="projects-en.html"
+                       class="btn btn-primary btn-lg">
+
+                        <i class="fa fa-code me-2"></i>
+
+                        View All Projects
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROFESSIONAL POSITIONING
+             ===================================================== -->
+
+        <section class="home-section bg-body-tertiary">
+
+            <div class="container">
+
+
+                <div class="text-center mb-5">
+
+                    <h2 class="home-section-title">
+
+                        My Professional Identity
+
+                    </h2>
+
+
+                    <p class="home-section-subtitle">
+
+                        A multidisciplinary approach connecting
+                        research, technology and education.
+
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-4">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-flask"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Research
+
+                            </h3>
+
+
+                            <p>
+
+                                Data Science · Marketing Analytics ·
+                                Consumer Analytics · Preference Modeling
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-laptop-code"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Technology
+
+                            </h3>
+
+
+                            <p>
+
+                                Python · Machine Learning · AI ·
+                                Data Applications · Web Development
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="home-card text-center">
+
+                            <div class="home-icon">
+
+                                <i class="fa fa-graduation-cap"></i>
+
+                            </div>
+
+
+                            <h3>
+
+                                Education
+
+                            </h3>
+
+
+                            <p>
+
+                                Adult Education · Programming ·
+                                AI · Digital Technologies
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FINAL CTA
+             ===================================================== -->
+
+        <section class="home-cta">
+
+            <div class="container">
+
+
+                <span class="badge rounded-pill text-bg-primary mb-3">
+
+                    Research · Technology · Education
+
+                </span>
+
+
+                <h2 class="fw-bold mb-3">
+
+                    Let's Connect
+
+                </h2>
+
+
+                <p class="lead mb-4">
+
+                    Explore my research, projects and professional
+                    interests, or get in touch for collaboration,
+                    education and technology-related opportunities.
+
+                </p>
+
+
+                <a href="contact-en.html"
+                   class="btn btn-primary btn-lg me-2">
+
+                    <i class="fa fa-envelope me-2"></i>
+
+                    Get in Touch
+
+                </a>
+
+
+                <a href="projects-en.html"
+                   class="btn btn-outline-primary btn-lg">
+
+                    <i class="fa fa-code me-2"></i>
+
+                    Explore Projects
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
+
+    <footer class="bg-dark text-light mt-0">
+
+        <div class="container py-5">
+
+            <div class="row g-4">
+
+
+                <!-- ABOUT -->
+
+                <div class="col-md-4">
+
+                    <h5 class="fw-bold">
+
+                        Theoxaris Anastasiadis
+
+                    </h5>
+
+
+                    <p class="text-secondary">
+
+                        PhD Candidate · Data Science · AI ·
+                        Marketing Analytics · Adult Education
+
+                    </p>
+
+
+                    <p class="text-secondary mb-0">
+
+                        Research · Technology · Education
+
+                    </p>
+
+                </div>
+
+
+                <!-- CONTACT -->
+
+                <div class="col-md-4">
+
+                    <h5 class="fw-bold">
+
+                        Contact
+
+                    </h5>
+
+
+                    <p class="mb-2">
+
+                        <i class="fa fa-map-marker-alt me-2"></i>
+
+                        Katerini, Pieria, Greece
+
+                    </p>
+
+
+                    <p class="mb-2">
+
+                        <i class="fa fa-envelope me-2"></i>
+
+                        <a href="mailto:theoxarisanastasiadis9@gmail.com"
+                           class="text-light text-decoration-none">
+
+                            theoxarisanastasiadis9@gmail.com
+
+                        </a>
+
+                    </p>
+
+
+                    <p class="mb-0">
+
+                        <i class="fa fa-phone me-2"></i>
+
+                        +30 694 961 2978
+
+                    </p>
+
+                </div>
+
+
+                <!-- LINKS -->
+
+                <div class="col-md-4">
+
+                    <h5 class="fw-bold">
+
+                        Connect
+
+                    </h5>
+
+
+                    <div class="d-flex gap-3">
+
+                        <a href="https://www.linkedin.com/in/theoxaris-anastasiadis-ba69a8121/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="text-light"
+                           aria-label="LinkedIn">
+
+                            <i class="fab fa-linkedin fa-lg"></i>
+
+                        </a>
+
+
+                        <a href="https://github.com/AnastasiadisXaris"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="text-light"
+                           aria-label="GitHub">
+
+                            <i class="fab fa-github fa-lg"></i>
+
+                        </a>
+
+
+                        <a href="https://www.researchgate.net/profile/Theoxaris-Anastasiadis"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="text-light"
+                           aria-label="ResearchGate">
+
+                            <i class="fas fa-book-open fa-lg"></i>
+
+                        </a>
+
+
+                        <a href="https://orcid.org/0009-0001-4449-4984"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="text-light"
+                           aria-label="ORCID">
+
+                            <i class="fab fa-orcid fa-lg"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <hr class="border-secondary my-4">
+
+
+            <div class="text-center">
+
+                <p class="mb-0 text-secondary">
+
+                    &copy;
+
+                    <span id="currentYear"></span>
+
+                    Theoxaris Anastasiadis.
+                    All rights reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         BOOTSTRAP JS
+         ========================================================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- =========================================================
+         DARK MODE
+         ========================================================= -->
+
+    <script>
+
+        const darkModeToggle =
+            document.getElementById('darkModeToggle');
+
+
+        const savedTheme =
+            localStorage.getItem('theme');
+
+
+        if (savedTheme) {
+
+            document.documentElement
+                .setAttribute(
+                    'data-bs-theme',
+                    savedTheme
+                );
+
+        }
+
+
+        if (darkModeToggle) {
+
+            darkModeToggle.addEventListener(
+                'click',
+                function () {
+
+                    const currentTheme =
+                        document.documentElement
+                            .getAttribute('data-bs-theme');
+
+
+                    const newTheme =
+                        currentTheme === 'dark'
+                            ? 'light'
+                            : 'dark';
+
+
+                    document.documentElement
+                        .setAttribute(
+                            'data-bs-theme',
+                            newTheme
+                        );
+
+
+                    localStorage.setItem(
+                        'theme',
+                        newTheme
+                    );
+
+
+                    const icon =
+                        darkModeToggle.querySelector('i');
+
+
+                    if (icon) {
+
+                        icon.className =
+                            newTheme === 'dark'
+                                ? 'fas fa-sun'
+                                : 'fas fa-moon';
+
+                    }
+
+                }
+            );
+
+        }
+
+
+        /* =====================================================
+           CURRENT YEAR
+           ===================================================== */
+
+        const currentYear =
+            document.getElementById('currentYear');
+
+
+        if (currentYear) {
+
+            currentYear.textContent =
+                new Date().getFullYear();
+
+        }
+
+    </script>
+
+
+    <!-- =========================================================
+         TIDIO
+         ========================================================= -->
+
+    <script src="//code.tidio.co/YOUR_TIDIO_CODE.js"
+            async>
+    </script>
+
+
+</body>
+
+</html>
+```
